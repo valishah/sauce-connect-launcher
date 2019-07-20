@@ -19,7 +19,7 @@
   },
   "scripts": {
     "postinstall": "node scripts/install.js || nodejs scripts/install.js",
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "version": "git add README.md",
     "lint": "make lint"
   },
@@ -32,7 +32,6 @@
   },
   "devDependencies": {
     "colors": "~1.1.2",
-    "eslint-plugin-jest": "^22.11.1",
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.9",
     "grunt-contrib-watch": "~0.6.1",
