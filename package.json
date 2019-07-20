@@ -19,7 +19,7 @@
   },
   "scripts": {
     "postinstall": "node scripts/install.js || nodejs scripts/install.js",
-    "test": "jest --detectOpenHandles",
+    "test": "jest --forceExit",
     "version": "git add README.md",
     "lint": "make lint"
   },
