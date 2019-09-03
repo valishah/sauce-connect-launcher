@@ -161,6 +161,13 @@ You can override the default Sauce Connect version with the `SAUCE_CONNECT_VERSI
 $ SAUCE_CONNECT_VERSION=4.2 node myTestApp.js
 ```
 
+### Sauce Connect Region Endpoint
+
+You can override the default Sauce Connect region endpoint with  `SAUCE_API_HOST` environment variable.
+
+```sh
+$ SAUCE_API_HOST='eu-central-1.saucelabs.com' node myTestApp.js
+```
 
 ## Development
 
